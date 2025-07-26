@@ -96,7 +96,7 @@ def launch():
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
     args.run_name = "DDPM_Uncondtional"
-    args.epochs = 10
+    args.epochs = 100
     args.batch_size = 8
     args.image_size = 64
     args.dataset_path = r"/kaggle/input/clean-axial/axial"
